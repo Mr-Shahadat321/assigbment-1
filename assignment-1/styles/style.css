@@ -1,0 +1,102 @@
+/* google-font */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.releway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* share-style */
+
+.primary-color {
+  color: #4E47FF;
+}
+
+.primary-btn {
+  background-color: #4E47FF;
+  border: none;
+  padding: 12px 36px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+
+}
+
+/* start-nav-logo-style */
+ul {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+li a {
+  font-weight: 900;
+  font-size: 34px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-top: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  margin: 50px 150px auto 150px;
+}
+
+/* end-nav-logo */
+
+
+
+/* start-nav-banner-section-style */
+
+
+.nav-banner-container {
+  height: 650px;
+  width: 1200px;
+  margin: 40px auto 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  background-image: url(/Assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-content h1 {
+  font-weight: bold;
+  font-size: 65px;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+
+.focus-btn {
+  background-color: #4E47FF;
+  border: none;
+  padding: 12px 36px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 200px;
+
+}
+
+/* end-nav-banner-section-style */
