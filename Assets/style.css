@@ -289,7 +289,11 @@ span {
   width: 380px;
   height: 46px;
   padding-top: 20px;
-  gap: 50px;
+  gap: 8px;
+}
+
+.review p {
+  margin: 0;
 }
 .review img {
   height: 50px;
@@ -368,25 +372,82 @@ span {
 /* <!--start-touch-input-section --> */
 
 .touch-container {
-  background-color: white;
   height: 630px;
   width: 1140px;
   margin: 80px auto 80px auto;
+  
 
 }
 .each-side {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ 
 }
-
-.touch-title {
-  width: 520px;
-  height: 230px;
-}
-
 
 .right-side {
-  width: 490px;
-  height: 490px;
+  margin: 200px 5px;
 }
+
+.touch-title h1{
+  font-size: 90px;
+  font-weight: bold;
+
+}
+
+.right-side form {
+  width: 400px;
+  font-size: 0;
+}
+
+
+
+.right-side form label {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin: 5px;
+}
+
+.right-side form input[type="email"],
+
+ .right-side form input[type="text"],
+.right-side form textarea,
+
+.right-side form button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #D0D5DD;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+  margin-top: 7px;
+  line-height: 2;
+
+
+}
+
+.right-side form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.right-side form button[type="submit"] {
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bold;
+  height: 62px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* end-touch-input-section */
+
+
+/* start-footer-section */
+
+.logo-section-container {
+  
+}
+
+
