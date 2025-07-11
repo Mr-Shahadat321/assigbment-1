@@ -77,7 +77,7 @@ nav li a {
 }
 
 nav {
-  background-image: url(/Assets/Hero-bg.png);
+  background-image: url(./Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -360,4 +360,33 @@ span {
   text-align: center;
   border-radius: 48px;
   
+}
+/* <!-- end-ready-focus-container --> */
+
+
+
+/* <!--start-touch-input-section --> */
+
+.touch-container {
+  background-color: white;
+  height: 630px;
+  width: 1140px;
+  margin: 80px auto 80px auto;
+
+}
+.each-side {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.touch-title {
+  width: 520px;
+  height: 230px;
+}
+
+
+.right-side {
+  width: 490px;
+  height: 490px;
 }
