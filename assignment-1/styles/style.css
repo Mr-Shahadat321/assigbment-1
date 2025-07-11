@@ -14,6 +14,9 @@
 }
 
 /* share-style */
+body {
+  background-color: rgba(245, 248, 255);
+}
 
 .primary-color {
   color: #4E47FF;
@@ -146,7 +149,7 @@ span {
   width: 1100px;
   height: 300px;
   margin: 130px auto 50px auto;
-  background-color: #ee7ddf34;
+  background-color: #201d742b;
   border-radius: 24px;
 
 }
@@ -188,5 +191,95 @@ span {
    font-size: 16px;
    margin: 10px auto 50px auto;
    
+}
+
+
+/* end-prodctive-user-section */
+
+/* start-user-feedback-container */
+
+.user-feedback-container {
+  width: 1100px;
+  height: 340px;
+  margin: 70px auto 50px auto;
+}
+.feedback-heading  {
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.user-card {
+  background-color: #eae3e30e;
+  border: 1px solid #F2EDED;
+  height: 240px;
+  width: 300px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 3px rgba(124, 84, 84, 0.315);
+  border-radius: 14px;
+  
+}
+
+.total-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+
+/* ag-heading, and ag strong */
+@font-face {
+  font-family: "AgHeading";
+  src: url("fonts/AgHeading.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AgBodyStrong";
+  src: url("fonts/AgBodyStrong.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+ .ag-heading  {
+  font-family: "AgHeading", sans-serif;
+}
+
+.ag-bodyStrong {
+     font-family: "AgBodyStrong", sans-serif;
+}
+
+ .card-content h1 {
+  font-size: 24px;
+  line-height: 30px;
+} 
+
+.review {
+  display: flex;
+  align-items: center;
+  width: 380px;
+  height: 46px;
+  padding: 24px;
+  gap: 50px;
+}
+.review img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+}
+.review-title {
+  color: #757575;
+}
+
+
+.review-title {
+  display: flex;
+  flex-direction: column;
+ 
 }
 
