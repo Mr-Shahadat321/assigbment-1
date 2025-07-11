@@ -172,13 +172,13 @@ span {
 .centered-title  h2{
    font-weight: bold;
    font-size: 38px;
-   margin-top: 20px;
+   margin-bottom: -30px;
    
  
 }
 .data-box {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+ 
+  margin-top: 70px;
 }
 
 .data-box h1{
@@ -213,8 +213,8 @@ span {
 .user-card {
   background-color: #eae3e30e;
   border: 1px solid #F2EDED;
-  height: 240px;
-  width: 300px;
+  height: 220px;
+  width: 280px;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -254,6 +254,7 @@ span {
      font-family: "AgBodyStrong", sans-serif;
 }
 
+
  .card-content h1 {
   font-size: 24px;
   line-height: 30px;
@@ -261,10 +262,11 @@ span {
 
 .review {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   width: 380px;
   height: 46px;
-  padding: 24px;
+  padding-top: 20px;
   gap: 50px;
 }
 .review img {
