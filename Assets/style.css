@@ -13,6 +13,22 @@
   font-style: normal;
 }
 
+
+/* challangees-portion */
+
+.challange-btn:hover {
+  background-color: #6e68de;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: #3b36cc;
+  transform: scale(1.05);
+}
+
+
 /* share-style */
 body {
   background-color: rgba(245, 248, 255);
@@ -447,7 +463,7 @@ span {
 /* start-footer-section */
 
 .logo-section-container {
-  
+
 }
 
 
