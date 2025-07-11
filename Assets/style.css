@@ -16,6 +16,8 @@
 /* share-style */
 body {
   background-color: rgba(245, 248, 255);
+  /* height: 100vh; */
+  /* width: auto; */
 }
 
 .primary-color {
@@ -67,16 +69,27 @@ nav li a {
   width: 1100px;
   margin: 40px auto 40px auto;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+ 
+ 
 }
 
 nav {
-  background-image: url(./Assets/Hero-bg.png);
+  background-image: url(/Assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-banner-div {
+  display: flex;
 }
 
 .banner-content h1 {
@@ -99,6 +112,7 @@ span {
   font-size: 16px;
   border-radius: 10px;
   width: 200px;
+  text-align: center;
 
 }
 
@@ -119,6 +133,7 @@ span {
   font-weight: bold;
   font-size: 42px;
   margin-bottom: 30px;
+  /* text-align: center; */
 }
 .left-side p {
   color: #252432;
@@ -259,6 +274,13 @@ span {
   font-size: 24px;
   line-height: 30px;
 } 
+.ag-body-base {
+  font-family: "AgBody", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 
 .review {
   display: flex;
@@ -286,3 +308,56 @@ span {
  
 }
 
+/* end-user-feedback-container */
+
+/* start-container-ready-focus- */
+
+.ready-focus-container {
+  height: 695px;
+  width: 1100px;
+  background-color: white;
+  margin: 150px auto 50px auto;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.focus-container-details {
+  padding: 50px 150px;
+  text-align: center;
+  
+ 
+}
+.focus-content {
+  text-align: center;
+  padding-bottom: 30px;
+  
+}
+.focus-content h1 {
+  font-weight: bold;
+  font-size: 50px;
+  padding: 0;
+}
+
+.focus-content p {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+
+}
+.btn-focus {
+   background-color: #4E47FF;
+  border: none;
+  padding: 12px 36px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 195px;
+  height: 48px;
+}
+
+.focus-image img {
+  text-align: center;
+  border-radius: 48px;
+  
+}
